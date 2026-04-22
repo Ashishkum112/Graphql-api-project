@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @RequiredArgsConstructor
-public class GraphqlProjectApplication implements CommandLineRunner {
+public class    GraphqlProjectApplication implements CommandLineRunner {
 
 
     private final BookService bookService;
